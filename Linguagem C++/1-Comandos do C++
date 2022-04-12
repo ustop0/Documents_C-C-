@@ -1,0 +1,38 @@
+
+Compila em c++ >> "g++ arquivo.cpp -o arquivo"
+
+Faz o compilador gerar o codigo assembly da aplicação >> "g++ arquivo.cpp -o arquivo -S"
+
+Compilar mostrando todos os warnings e erros possíveis >> "g++ arquivo.cpp -W -Wall -o arquivo"
+
+Executa arquivo o arquivo compilado >> "./arquivo"
+
+Compila em c++ com ncurses(para desenvolver interfaces de texto) >> "g++ arquivo.cpp -lncurses -o arquivo"
+
+
+---
+tutorial >> https://www.youtube.com/watch?v=X4DU-4lm9-4
+
+Obriga o compilador a gerar código independente de posição >> "g++ -fPIC -c arquivo.cpp"
+
+Gera o arquivo .so apartir do .o >> "g++ -shared arquivo.o -o arquivo.so"
+
+Compilar programa principal linkando bibliotecas dinamicas >> "g++ -omain arquivo.cpp -L./ -llib64"
+
+
+--- Compilando C++ utilizando modulos(c++20)
+Para compilar usando os modulos utilizando clang ou gcc
+
+clang++ -std=c++2a -fmodules-ts --precompile math.cppm -o math.pcm                   // 1
+clang++ -std=c++2a -fmodules-ts -c math.pcm -o math.o                                // 2
+clang++ -std=c++2a -fmodules-ts -fprebuilt-module-path=. math.o main.cpp -o math     // 3
+
+
+--- Compilador Clang
+Compilar >> "clang++ arquivo.cpp -o arquivo"
+
+--- Interpretador C e C++ cling
+tutorial >> https://terminalroot.com.br/2022/02/cling-rode-c-cpp-como-script.html
+
+Para rodar o cling >> "cling"
+

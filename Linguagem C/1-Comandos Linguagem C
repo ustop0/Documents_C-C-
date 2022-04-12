@@ -1,0 +1,40 @@
+
+Para compilar o código em C >> "gcc nomedoarquivo.c -o nomedoarquivo"
+
+Para compilar o código em C e preparar para depuração >> "gcc nomedoarquivo.c -g -o nomedoarquivo"
+
+Depura o código em C >> "gdb nomedoarquivo(executavel)"
+
+Para compilar o código em C com Mysql >> "gcc nomedoarquivo.c -lmysqlclient -o nomedesaida"
+
+Para compilar o código em C com gtk >> "gcc nomedoarquivo.c -lmysqlclient `pkg-config --cflags --libs gtk+-3.0` -o nomedesaida"
+
+Para compilar o código com <math.h> >> "gcc calculadora.c -lm -lmysqlclient `pkg-config --cflags --libs gtk+-3.0` -o calculadora
+
+
+Para executar >> " ./nomedoprograma"
+
+Biblioteca de conexao com o mysql >> "sudo apt install libmysqlclient-dev"
+
+
+Documentação da biblioteca GTK >> https://pt.wikibooks.org/wiki/GTK%2B/Come%C3%A7ando
+
+---AULAS PARA CRIAR PROGRAMAS---
+CRUD em C >> https://www.youtube.com/watch?v=5u7EHrCtbGg
+
+Usar C com MySQL >> https://www.vivaolinux.com.br/artigo/Usando-MySQL-na-linguagem-C
+
+Inserir variaveis no MySQL >> https://www.vivaolinux.com.br/topico/C-C++/Conexao-com-banco-de-dados-1
+
+Fazer consultas no MySQL >> https://estudandoalinguagemc.blogspot.com/2018/09/exemplo-de-consulta-ao-banco-de-dados.html
+
+Usar SOCKET em C no linux >> https://www.youtube.com/watch?v=GaxjJvMnz-I
+
+Tipos de dados no C >> http://www2.ic.uff.br/~hcgl/entrada_saida.htm
+
+Instalar GTK+ >> https://prognotes.net/2015/12/installing-gtk-3-and-glade-development-tools-in-linux/
+              >> https://www.linuxfromscratch.org/blfs/view/stable/x/gtk3.html
+              
+Erro ao compilar GTK >> https://www.vivaolinux.com.br/topico/C-C++/erro-ao-compilar-GTK
+
+Dicas de uso do GTK >> https://www.vivaolinux.com.br/artigo/Introducao-a-GTK+-em-C?pagina=4              

@@ -1,0 +1,31 @@
+
+---gdb---
+abre o depurador gdb -tui
+
+
+---cppcheck---
+tutorial > "https://sergioprado.org/analisando-codigo-fonte-cc-com-a-ferramenta-cppcheck/"
+Analísa código e procurar erros (g++ não encontra) >> "cppcheck programa.cpp"
+Analíse mais detalhada cppcheck					   >> "cppcheck --enable=all programa.cpp" 
+
+---gprog---
+madir desempenho e procurar gargalos nos programas
+
+programa.cpp
+g++ –pg programa.cpp –o programa
+./fatorial //é necessario rodar o programa antes de usar o gprof
+gprof ./programa > saida.txt
+
+Analise em forma grafica de saida.txt
+
+precisa ter o Python e o Graphviz instalados
+# Converte o report em dot graph
+./gprof2dot.py report.txt > report.dot
+# Converte o dot graph em uma imagem
+dot -Tpng -o profile.png report.dot
+
+---cmake---
+automatizar compilação
+
+
+ 

@@ -1,0 +1,2 @@
+Compilar Curl >> "g++ postHttp.cpp -lcurl -o postHttp"
+Compilar Json >> "g++ postJson.cpp -lcurl -ljsoncpp -o postJson"	

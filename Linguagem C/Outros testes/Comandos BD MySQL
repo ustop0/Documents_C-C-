@@ -1,0 +1,25 @@
+Acessar Mysql pelo terminal >> "sudo mysql -u root -p
+
+
+Mostrar todos os bancos de dados >> "SHOW DATABASES;"
+
+Criar um banco de dados >> "CREATE DATABASE nomedobd;"
+
+Usar um banco de dados >> "USE nomedobd;"
+
+Criar uma tabela em um banco de dados >> "CREATE TABLE clientes (idCliente int NOT NULL auto_increment, nomeEmpresa varchar(255) not null, numEmpregados mediumint default NULL, PRIMARY KEY (idCliente));"
+
+Mostrar tabelas de um BD >> "SHOW TABLES FROM nomedobd;"
+
+Mostrar mais informações sobre uma tabela de um banco de dados >> "DESCRIBE nomedatabela;"
+
+Mostrar colunas de uma tabela >> "SHOW COLUMNS FROM nomedatabela;"
+
+Inserir dados em uma tabela >> "INSERT INTO `clientes` (`nomeEmpresa`,`nomeDiretor`,`numEmpregados`) VALUES ("Malesuada Inc.","Johnny Pedd",4847);"
+
+Mostra todos os registros inseridos em uma tabela >> "SELECT * FROM nomedatabela;"
+
+Deleta todos os registros de uma tabela >> "TRUNCATE TABLE nomedatabela;"
+
+Deletar registros específicos de uma tabela >> "DELETE FROM nomedatabela WHERE nomecoluna = valor;"
+

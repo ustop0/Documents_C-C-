@@ -1,0 +1,24 @@
+
+---gdb---
+abre o depurador gdb -tui
+
+
+---cppcheck---
+tutorial > "https://sergioprado.org/analisando-codigo-fonte-cc-com-a-ferramenta-cppcheck/"
+Analísa código e procurar erros (g++ não encontra) >> "cppcheck programa.cpp"
+Analíse mais detalhada cppcheck					   >> "cppcheck --enable=all programa.cpp" 
+
+---gprog---
+madir desempenho e procurar gargalos nos programas
+
+programa.c
+gcc –pg programa.c –o programa
+./fatorial
+gprof ./programa > saida.txt
+
+
+---cmake---
+automatizar compilação
+
+
+ 

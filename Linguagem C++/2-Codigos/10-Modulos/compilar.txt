@@ -1,0 +1,5 @@
+Para compilar usando os modulos utilizando clang ou gcc
+
+clang++ -std=c++2a -fmodules-ts --precompile math.cppm -o math.pcm                   // 1
+clang++ -std=c++2a -fmodules-ts -c math.pcm -o math.o                                // 2
+clang++ -std=c++2a -fmodules-ts -fprebuilt-module-path=. math.o main.cpp -o math     // 3

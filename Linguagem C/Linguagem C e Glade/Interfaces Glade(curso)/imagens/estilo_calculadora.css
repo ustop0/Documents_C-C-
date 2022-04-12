@@ -1,0 +1,28 @@
+#bt_soma_1 {
+	background: url("soma.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+#bt_soma_1:hover {
+	background-size: 120% 120%;
+}
+
+#bt_reset_1 {
+	background: #ff0000;
+	border-radius: 3%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.zoom_personalizado:hover,
+#digito:hover,
+#bt_reset_1:hover {
+	font-size: 22px;
+	background: #8e9fff;
+	font-weight: bold;
+}
+
+#digito {
+	font-size: 16px;
+}

@@ -1,0 +1,2 @@
+Compilar Poco Request >> g++ request.cpp -lPocoNet -lPocoFoundation -o request
+
