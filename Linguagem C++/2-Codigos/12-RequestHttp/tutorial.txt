@@ -1,0 +1,8 @@
+Instalar bibliotecas:
+sudo apt install lcurl(não sei se está certo)
+sudo apt install libjsoncpp-dev
+
+Compilar Curl >> "g++ postHttp.cpp -lcurl -o postHttp"
+Compilar Json >> "g++ postJson.cpp -lcurl -ljsoncpp -o postJson"
+
+tutorial: https://linuxhint.com/parse-json-data-cpp/	

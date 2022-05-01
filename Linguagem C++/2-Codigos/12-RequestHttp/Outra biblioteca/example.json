@@ -1,0 +1,11 @@
+{
+  "number": 42,
+  "website": "Terminal Root",
+  "author": "Marcos Oliveira",
+  "parsing": true,
+  "details": {
+    "tutorial": "json C++",
+    "id": 1
+  },
+  "other": null
+}
