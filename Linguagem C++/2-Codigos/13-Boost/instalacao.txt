@@ -1,0 +1,4 @@
+Boost: sudo apt install libboost-all-dev
+
+Boost para testes: sudo apt install g++ libboost-test-dev
+				 :https://professoreletrico.com/posts/programacao/tdd-testando-codigo-c-c-com-boost-test/
